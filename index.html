@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anson's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-tint"></div>
+    <main>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#"></a>
+                </div>
+                <ul class="nav-links" id = "navLinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm Anson</h1>
+                <p>A full stack developer that is obsessed with delivering great user experiences.</p>
+            </div>
+        </section>
+        <section id="about" class="about-me">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-box">
+                    <p>Hello! I'm Anson Yu, a recent graduate from the University of California, Merced. 
+                        I am proficient with backend development using Python, Flask, and Django. 
+                        For frontend, I usually use HTML and seldomly use React, but that will be changing soon as I'm currently making a project with it.
+                        I've used various database services like SQLLite, SQLAlchemy, and MongoDB to host data for various projects.
+                        </p>
+                    <p> 
+                        Outside of work, I go out for hikes, play video games, do crossword puzzles, and occasionally read blogs about how to create user-friendly experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-content">
+                <div class="project-box">
+                    <h3>Social Feed</h3>
+                    <img src="media/social-feed.png" alt="Social Feed Image">
+                    <p>A forum that focused on two emerging interests on UC Merced post-COVID: anime and gaming. Social Feed aimed to be a place for UC Merced students to simply post gaming or anime related threads.
+                        I was responsible for the backend API of the forum that allowed users to create an account, post threads, view threads, and reply to threads.
+                         I also contributed to the administrative actions using the Flask-Admin package and stored all of the data using SQLLite as the database and SQLAlchemy to create queries.
+                    </p>
+                    <p>
+                        Technologies: HTML, CSS, Python, Flask, Git, JavaScript
+                    </p>
+                </div>
+                <div class="project-box">
+                    <h3>Mushroom Checklist</h3>
+                    <img src="media/mushroomcheck.png" alt="Mushroom Checklist Image">
+                    <p>A checklist application that I made using Qt and C++. This was my first application that I developed using the Qt framework for an online game. 
+                        It would allow users to check off each activity they completed and return the amount of online currency that would be obtained. 
+                        I also learned about states and applied the concept with a graph that updates with every user action to the checklist. 
+                    </p>
+
+                    <p> To ensure users would be able to differentiate between the difference between a daily and weekly activity on the graph, I set it so the daily activities were colored green and the weekly activities were marked as blue.
+                        As of 7/21/22, this project has been outdated due to UI enhancements in the game.</p>
+                    
+                    <p> Technologies: Qt, C++</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me!</h2>
+            <div class="contact-content">
+                <a href="https://github.com/satiricbadger" class="contact-link" target="_blank">
+                    <img src="media/github-mark-white.png" alt="GitHub" class="contact-icon">
+                </a>
+                <a href="www.linkedin.com/in/anson-yu-9b6075171" class="contact-link" target="_blank">
+                    <img src="media/In-White-96.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="mailto:ansony455@gmail.com" class="contact-link">
+                    <img src="media/mail-48.png" alt="Email" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
